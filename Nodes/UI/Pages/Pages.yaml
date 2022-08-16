@@ -6655,6 +6655,80 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 390.0
+  - Name: Label1
+    Id: g=dc50e3d15ed9008425cdd81d940096cb
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=bfe6c1d7857382d563ab75e4d8cb29f7
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
+    - Name: VerticalAlignment
+      Id: g=58bc7c0cb6dc4d85effa165624e51f17
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: HorizontalAlignment
+      Id: g=6b1bb6859e160a00e3c5dae04ff5dc1b
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: Height
+      Id: g=850c9973a891e21a6388a80609d570c1
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 99.0
+    - Name: TopMargin
+      Id: g=e938cd4f02c6a9970fcaec11f3952420
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 491.0
+    - Name: Width
+      Id: g=905388e0163a09becffb1d40c0ba069c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 199.0
+  - Name: Height
+    Id: g=224df407e6d007f3e2e1ebb8659dc8c1
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1120.0
+  - Name: Width
+    Id: g=6f38871be74f6b3f540d7e7aba23fbbe
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1400.0
+  - Name: Label2
+    Id: g=f16209047d311ac3f30cefaf4138155e
+    Type: Label
+    Children:
+    - Name: Text
+      Id: g=ce2c2c9e79aea1bd18bfa979f7bb91a8
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label2"}
+    - Name: LeftMargin
+      Id: g=ae054a37f5424e0afa336685044288f6
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 203.0
+    - Name: TopMargin
+      Id: g=e60d3af078a4f5f60005ab984b7994f0
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 36.0
 - Name: Data
   Id: g=1b0dc70d5d42c09a70acec1c917ca5d0
   Supertype: BasePage
