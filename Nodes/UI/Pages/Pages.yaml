@@ -6762,6 +6762,21 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: CheckBox1
+    Id: g=0848eb3552987d2f18260c9572ec2e28
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Id: g=4ecfe6d4c86b0700888c8e56046d3fbd
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Text
+      Id: g=5c16101a39eb25a5e1225c476c679ce5
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"CheckBox1"}
 - Name: Data
   Id: g=1b0dc70d5d42c09a70acec1c917ca5d0
   Supertype: BasePage
