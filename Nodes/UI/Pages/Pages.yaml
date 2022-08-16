@@ -6750,6 +6750,18 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
+    - Name: LeftMargin
+      Id: g=d754e9c841559ee236ade2859f97ba6d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: TopMargin
+      Id: g=cd3b68e0d3f3b7cc371d18a9ebc141e2
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 20.0
 - Name: Data
   Id: g=1b0dc70d5d42c09a70acec1c917ca5d0
   Supertype: BasePage

@@ -104,24 +104,25 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+        ModellingRule: Optional
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
         Children:
         - Name: UnitId
-          Id: g=f40af4deb4222e579531d621478cdb4f
+          Id: g=f073155a400e4bfb2b41c88d00f99808
           Type: BaseVariableType
           DataType: Int32
           OwnerId: ns=5;i=6002
           ReferenceType: HasProperty
           Value: 0
         - Name: DisplayName
-          Id: g=cb6c1a7417109e646654e6d58b3563b3
+          Id: g=7587447f77cbe0337a045c8053c82cc3
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;i=6002
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Id: g=c9e3962becff1841d75b8e4f9268f8fe
+          Id: g=4b5736480daac0cf1b537ffaeba5ace3
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;i=6002
@@ -135,14 +136,14 @@ Children:
         Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":100.0}}
         Children:
         - Name: Low
-          Id: g=92c63fad7d05c2d017377d60ca0d8ae8
+          Id: g=63539900de5d21952dd868d04634352e
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6003
           ReferenceType: HasProperty
           Value: 0.0
         - Name: High
-          Id: g=3da4b37bdba6f2a771c66655b4890e87
+          Id: g=d99be09fa093e92aed2f8b9f34af7b2c
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6003
@@ -157,14 +158,14 @@ Children:
         Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
         Children:
         - Name: Low
-          Id: g=d62f6de756ecf98bb0ff7f264f834417
+          Id: g=9fd4beacd57a08ba0cef6cfc419c43e2
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6004
           ReferenceType: HasProperty
           Value: 0.0
         - Name: High
-          Id: g=63b32e9865f94ab52bea37c56c908731
+          Id: g=c2e26900fbf0cc8782795db5c58c877f
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6004
@@ -217,24 +218,25 @@ Children:
         Type: EUInformationType
         DataType: EUInformation
         DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+        ModellingRule: Optional
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
         Children:
         - Name: UnitId
-          Id: g=9ef7fd87e2905997e8b0c4a9da2e1355
+          Id: g=2df56e9d89e5a63e82faf4d6426096c7
           Type: BaseVariableType
           DataType: Int32
           OwnerId: ns=5;i=6008
           ReferenceType: HasProperty
           Value: 0
         - Name: DisplayName
-          Id: g=3ea02942a9d3fca4471af1abe4400d02
+          Id: g=a50f8f9f08e8255d363bba54302d2da8
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;i=6008
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Id: g=d1819aadf9e555e94e35ee643b32e921
+          Id: g=ee58a06dd1758082c579c2ad95921b62
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;i=6008
@@ -248,14 +250,14 @@ Children:
         Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
         Children:
         - Name: Low
-          Id: g=d4e6b761264bf822981c89981d9f0134
+          Id: g=fd553283451c0f1e9fec49072467d161
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6009
           ReferenceType: HasProperty
           Value: 0.0
         - Name: High
-          Id: g=dea5ea87ab2238f5c0eee9368c73bd7f
+          Id: g=0b9a155b253292a95ab3223cbc86143f
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6009
@@ -270,14 +272,14 @@ Children:
         Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
         Children:
         - Name: Low
-          Id: g=d92f728f14a6bdbfb523f510e8fe3b94
+          Id: g=f941da85bb9d3bf14714aaf97bdca7b1
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6010
           ReferenceType: HasProperty
           Value: 0.0
         - Name: High
-          Id: g=17eb52589dc8644fa5d6b15bc3595e01
+          Id: g=78a8207787ef6bc0dbb5c9a76ad6c56b
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;i=6010
@@ -334,24 +336,25 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+          ModellingRule: Optional
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=acac99301469396fc850086b98abd6c3
+            Id: g=15d14a0a683f393ef29ee12b90907bf5
             Type: BaseVariableType
             DataType: Int32
             OwnerId: ns=5;i=6021
             ReferenceType: HasProperty
             Value: 0
           - Name: DisplayName
-            Id: g=d959d0cd20d420257f46acb35926d4da
+            Id: g=5bba4b496f7b8ccb966e1e0a160a73a4
             Type: BaseVariableType
             DataType: LocalizedText
             OwnerId: ns=5;i=6021
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=1de1e05b6c1c4edee5cd4c3369210feb
+            Id: g=78dfa94a26f420a22abb8a552a6f7127
             Type: BaseVariableType
             DataType: LocalizedText
             OwnerId: ns=5;i=6021
@@ -365,14 +368,14 @@ Children:
           Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
           Children:
           - Name: Low
-            Id: g=8b59d7887d61fba403c3acbe0e3e8c75
+            Id: g=f79e388023da9f2e526f1b11a577c87d
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6022
             ReferenceType: HasProperty
             Value: 0.0
           - Name: High
-            Id: g=7bf6029e6fcbaa098821b3ab45286749
+            Id: g=d8c763cb9b857c21a3ebb54d0f6eb87f
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6022
@@ -387,14 +390,14 @@ Children:
           Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
           Children:
           - Name: Low
-            Id: g=1877ee5a5a71b50107e6eee590d77509
+            Id: g=3b68a6a5b406c6219e84ce2cd8882ea7
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6023
             ReferenceType: HasProperty
             Value: 0.0
           - Name: High
-            Id: g=202c5f9eaa62ab58cda8769e68dfd313
+            Id: g=998fd4a5feb00c9697a6d433d44f3064
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6023
@@ -458,24 +461,25 @@ Children:
           Type: EUInformationType
           DataType: EUInformation
           DisplayName: {"LocaleId":"","Text":"EngineeringUnits"}
+          ModellingRule: Optional
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=35b3c8a3b03fe232ff6f61c9903fb7f5
+            Id: g=e21069778f18c0b48aa93481e96b6f24
             Type: BaseVariableType
             DataType: Int32
             OwnerId: ns=5;i=6015
             ReferenceType: HasProperty
             Value: 0
           - Name: DisplayName
-            Id: g=c369d92d935516d880aee3910748f4d1
+            Id: g=0bc856ca2bf403b52fef807db65c8020
             Type: BaseVariableType
             DataType: LocalizedText
             OwnerId: ns=5;i=6015
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=1c9e44aa51daad13de95a23b2d8a8e3c
+            Id: g=a305f63c57a11e2e69aa1f2c6fd6be4f
             Type: BaseVariableType
             DataType: LocalizedText
             OwnerId: ns=5;i=6015
@@ -489,14 +493,14 @@ Children:
           Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":100.0}}
           Children:
           - Name: Low
-            Id: g=2c173ea400c3e82e0ec4ac35df080f45
+            Id: g=39e088b654143e018555a13b9de5a480
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6016
             ReferenceType: HasProperty
             Value: 0.0
           - Name: High
-            Id: g=9aff5fb3bc30aaa6f18e3e2fd1e40a69
+            Id: g=53ca03492e221f4b533f529178641723
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6016
@@ -511,14 +515,14 @@ Children:
           Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
           Children:
           - Name: Low
-            Id: g=626515fa1af6ca5c2ffca2582dfcd6cd
+            Id: g=40bbef098c2bee7cee3b9ac461fc3f82
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6017
             ReferenceType: HasProperty
             Value: 0.0
           - Name: High
-            Id: g=a51462ada04a1cf674523db490fa3a3f
+            Id: g=b67e5d968526e7e4be7ffc6f5796f981
             Type: BaseVariableType
             DataType: Double
             OwnerId: ns=5;i=6017
