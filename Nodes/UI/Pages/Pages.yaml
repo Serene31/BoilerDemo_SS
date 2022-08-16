@@ -6729,6 +6729,27 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 36.0
+  - Name: LED1
+    Id: g=9b65e1dad2113dda9a6338a2d1721208
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=02a3ffbfc65671c81d20175335c85122
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Id: g=19a168f836abf9b364291eb51587e5d8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=4de6e043515d1b5cfdee392fd063dcf8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - Name: Data
   Id: g=1b0dc70d5d42c09a70acec1c917ca5d0
   Supertype: BasePage
