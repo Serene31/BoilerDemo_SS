@@ -6777,6 +6777,27 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"CheckBox1"}
+  - Name: LED2
+    Id: g=0f185fa9c18130c34f8739431668743d
+    Type: Led
+    Children:
+    - Name: Active
+      Id: g=24c3bc9ce77b76567c1dd1dde193ff8b
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Width
+      Id: g=364331f6d30682af67f9d8a74bb09f7e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Id: g=621ddf6a9d2b8448ae7230915d834480
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - Name: Data
   Id: g=1b0dc70d5d42c09a70acec1c917ca5d0
   Supertype: BasePage
