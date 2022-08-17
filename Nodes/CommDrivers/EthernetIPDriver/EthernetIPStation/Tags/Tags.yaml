@@ -8,7 +8,7 @@ Children:
   Children:
   - Name: Tank2
     Id: g=06e7064cbec790fa15f8d69e0b255842
-    Type: TankUDT1
+    Type: TankUDT
     Children:
     - Name: ValveInStatus
       Id: g=8f4dab4845e2ec54a9f298c05f89261d
@@ -78,7 +78,7 @@ Children:
         Value: "Tank2.SetPoint"
   - Name: Tank1
     Id: g=5ed6d8ecd346fbfcaf01c17521dd51ab
-    Type: TankUDT1
+    Type: TankUDT
     Children:
     - Name: ValveInStatus
       Id: g=69db3a6863b97c652d68128398a54c14

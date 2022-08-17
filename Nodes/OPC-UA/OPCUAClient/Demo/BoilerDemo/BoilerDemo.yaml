@@ -44,21 +44,21 @@ Children:
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://www.opcfoundation.org/UA/units/un/cefact","unitId":5002322,"displayName":{"LocaleId":"en-US","Text":"l"},"description":{"LocaleId":"en-US","Text":"litre"}}}
         Children:
         - Name: UnitId
-          Id: g=f02be4e29b0eebccb06651f3d203413f
+          Id: g=b2267898b3a6f7a733b0dfdca6926d4a
           Type: BaseVariableType
           DataType: Int32
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.FillLevelSensor.FillLevel.EngineeringUnits
           ReferenceType: HasProperty
           Value: 5002322
         - Name: DisplayName
-          Id: g=6484c4303c069157ef31d2f35c3136a4
+          Id: g=14a440100f446b6933ce00bcf776be73
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.FillLevelSensor.FillLevel.EngineeringUnits
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Id: g=9c19d8ce733a2fd803980204443b5310
+          Id: g=b052e6c7059a4558b987b65180fe0496
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.FillLevelSensor.FillLevel.EngineeringUnits
@@ -72,14 +72,14 @@ Children:
         Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
         Children:
         - Name: Low
-          Id: g=b77fcafee569ed0ca9e9aa016d2c655d
+          Id: g=760211ec34d967a133010c93e4091342
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.FillLevelSensor.FillLevel.EURange
           ReferenceType: HasProperty
           Value: 0.0
         - Name: High
-          Id: g=ac3662a1de0be8bd60219e59c1002c13
+          Id: g=8469430f6d016a20b387966e8ce4d07c
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.FillLevelSensor.FillLevel.EURange
@@ -120,7 +120,7 @@ Children:
       Type: AnalogItemType
       DataType: Double
       DisplayName: {"LocaleId":"","Text":"Temperature"}
-      Value: 92.00360594785695
+      Value: 91.84673555321487
       Children:
       - Name: EngineeringUnits
         Id: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EngineeringUnits
@@ -130,21 +130,21 @@ Children:
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"http://www.opcfoundation.org/UA/units/un/cefact","unitId":4408652,"displayName":{"LocaleId":"en-US","Text":"°C"},"description":{"LocaleId":"en-US","Text":"degree Celsius"}}}
         Children:
         - Name: UnitId
-          Id: g=82c1f07cc3659fac76db6453e5546458
+          Id: g=a70b7a0e2ff093a0aba141fda91e5537
           Type: BaseVariableType
           DataType: Int32
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EngineeringUnits
           ReferenceType: HasProperty
           Value: 4408652
         - Name: DisplayName
-          Id: g=97775addb8dca13e1d2f794af90796ab
+          Id: g=fb4488c05c502c4bc22571216ec682c9
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EngineeringUnits
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Id: g=914b728745b9317d6e65fbba18c8dad8
+          Id: g=9a682e7446c833e02a51b946ec75bae9
           Type: BaseVariableType
           DataType: LocalizedText
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EngineeringUnits
@@ -158,14 +158,14 @@ Children:
         Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":100.0}}
         Children:
         - Name: Low
-          Id: g=cab366784696ff317ca69407e3731725
+          Id: g=6e9d933c97a072fe6723e764ba5bd974
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EURange
           ReferenceType: HasProperty
           Value: 0.0
         - Name: High
-          Id: g=484be18bb8a1dfb4398cf186930e271e
+          Id: g=5d7e7ab5704a143e21c661c31289cd9a
           Type: BaseVariableType
           DataType: Double
           OwnerId: ns=5;s=Demo.BoilerDemo.Boiler1.TemperatureSensor.Temperature.EURange
